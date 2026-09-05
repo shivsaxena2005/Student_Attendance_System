@@ -8,8 +8,8 @@ export default function Footer() {
           <a href="tel:+919461002425" className="footer-link">
             <IconPhone className="footer-icon" /> +91 94610 02425
           </a>
-          <a href="mailto:shivsaxena2878@gmail.com" className="footer-link">
-            <IconMail className="footer-icon" /> shivsaxena2878@gmail.com
+          <a href="mailto:healthchecklab3@gmail.com" className="footer-link">
+            <IconMail className="footer-icon" /> healthchecklab3@gmail.com
           </a>
           <span className="footer-link">
             <IconMapPin className="footer-icon" /> Leela Vihar Colony, Behind Midway Hotel, Dholpur (328001)

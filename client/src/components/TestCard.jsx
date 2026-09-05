@@ -13,14 +13,14 @@ export default function TestCard({ test, checked, onToggle }) {
           <span className="price-original">₹{originalPrice}</span>
           <span className="price">₹{test.price}</span>
         </span>
-        <label className="select-wrap">
-          <input
-            type="checkbox"
-            checked={checked}
-            onChange={() => onToggle(test.id)}
-          />
-          Select
-        </label>
+        <button
+          type="button"
+          className={`select-btn${checked ? " selected" : ""}`}
+          onClick={() => onToggle(test.id)}
+          aria-pressed={checked}
+        >
+          {checked ? "Selected" : "Select"}
+        </button>
       </div>
     </div>
   );

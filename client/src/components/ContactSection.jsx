@@ -16,9 +16,9 @@ export default function ContactSection() {
               <IconPhone className="contact-icon" />
               <span>+91 94610 02425</span>
             </a>
-            <a href="mailto:shivsaxena2878@gmail.com" className="contact-item">
+            <a href="mailto:healthchecklab3@gmail.com" className="contact-item">
               <IconMail className="contact-icon" />
-              <span>shivsaxena2878@gmail.com</span>
+              <span>healthchecklab3@gmail.com</span>
             </a>
             <div className="contact-item">
               <IconMapPin className="contact-icon" />

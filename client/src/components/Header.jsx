@@ -10,9 +10,9 @@ export default function Header() {
             <IconPhone className="topbar-icon" />
             +91 94610 02425
           </a>
-          <a href="mailto:shivsaxena2878@gmail.com" className="topbar-link">
+          <a href="mailto:healthchecklab3@gmail.com" className="topbar-link">
             <IconMail className="topbar-icon" />
-            shivsaxena2878@gmail.com
+              healthchecklab3@gmail.com
           </a>
         </div>
       </div>

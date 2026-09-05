@@ -43,14 +43,14 @@ export default function PackagesSection({ packages, isSelected, onTogglePackage 
                     <span className="price-original">₹{pkg.price + 50}</span>
                     <span className="price">₹{pkg.price}</span>
                   </span>
-                  <label className="select-wrap">
-                    <input
-                      type="checkbox"
-                      checked={isSelected("package:" + pkg.id)}
-                      onChange={() => onTogglePackage(pkg.id)}
-                    />
-                    Select
-                  </label>
+                  <button
+                    type="button"
+                    className={`select-btn${isSelected("package:" + pkg.id) ? " selected" : ""}`}
+                    onClick={() => onTogglePackage(pkg.id)}
+                    aria-pressed={isSelected("package:" + pkg.id)}
+                  >
+                    {isSelected("package:" + pkg.id) ? "Selected" : "Select"}
+                  </button>
                 </div>
               </div>
             );

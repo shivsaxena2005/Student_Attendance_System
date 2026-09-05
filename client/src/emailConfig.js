@@ -25,7 +25,7 @@ export const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "";
 // The business inbox that should receive every booking notification.
 // Passed into the EmailJS template as {{to_email}} so it always goes to the
 // right place even if the template's own "To Email" setting gets changed.
-export const BUSINESS_EMAIL = import.meta.env.VITE_BUSINESS_EMAIL || "shivsaxena2878@gmail.com";
+export const BUSINESS_EMAIL = import.meta.env.VITE_BUSINESS_EMAIL || "healthchecklab3@gmail.com";
 
 // ==========================================================
 // Google Sheets logging (optional, via Google Apps Script webhook)

@@ -38,7 +38,7 @@ export default function App() {
         altBg
       />
 
-      <TestsSection
+      {/* <TestsSection
         id="custom"
         title="Custom Tests"
         subtitle="Additional tests configured by the lab"
@@ -46,7 +46,7 @@ export default function App() {
         isSelected={isSelected}
         onToggle={toggleTest}
         icon={IconFlask}
-      />
+      /> */}
 
       <TeamSection />
 

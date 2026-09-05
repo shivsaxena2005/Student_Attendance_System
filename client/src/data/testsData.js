@@ -115,7 +115,7 @@ export const PACKAGES = [
     id: "full_body_advanced",
     name: "Full Body Checkup - Advanced",
     includes: ["cbc", "t3", "t4", "tsh", "vitb12", "vitd", "lft", "kft", "urine", "sugar_f", "sugar_pp", "hba1c", "lipid", "crp", "esr", "iron"],
-    price: 2999,
+    price: 2499,
     description: "Comprehensive screening covering all major organs, vitamins, diabetes & heart risk."
   },
 ];

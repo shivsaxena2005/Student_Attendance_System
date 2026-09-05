@@ -316,14 +316,31 @@ nav a:hover { color: var(--primary); }
   transition: color 0.3s ease;
 }
 
-/* Select label */
-.card label.select-wrap {
-  display: flex;
+/* Select button */
+.card .select-btn {
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.9rem;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: color 0.3s ease;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #16a34a;
+  color: var(--white);
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+.card .select-btn:hover {
+  background: #15803d;
+  transform: translateY(-1px);
+}
+.card .select-btn.selected {
+  background: #0b5b3d;
+}
+.card .select-btn.selected:hover {
+  background: #094a31;
 }
 
 
@@ -334,8 +351,7 @@ nav a:hover { color: var(--primary); }
 .card:hover h3,
 .card:hover p.desc,
 .card:hover .price,
-.card:hover .includes-list,
-.card:hover label.select-wrap {
+.card:hover .includes-list {
   color: var(--white);
 }
 .card:hover .price-original {
